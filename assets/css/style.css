@@ -16,10 +16,6 @@ hr {
 
 }
 
-a:link {
-    text-decoration: none;
-}
-
 
 .navlist1 {
 	position: relative;
@@ -59,6 +55,27 @@ a:link {
 .navlist1 li:first-child {
 	border-right: none;
 	
+}
+
+a:link {
+    text-decoration: none;
+}
+
+
+a:link{
+  color: lightgray;
+}
+a:visited{
+  color: gray;
+}
+a:hover{
+  color:orange;
+}
+a:focus{
+  color: lightgray;
+}
+a:active{
+  color: lightgray;
 }
 
 /*.navlist1 li:last-child {
